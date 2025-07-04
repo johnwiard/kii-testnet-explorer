@@ -4,22 +4,29 @@
   <meta charset="UTF-8" />
   <title>Kii-Testnet-Oro Explorer</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
   <aside>
     <h2>Kii‑Testnet‑Oro</h2>
     <nav>
       <ul>
-        <li onclick="loadPage('dashboard')">Dashboard</li>
-        <li onclick="loadPage('governance')">Governance</li>
-        <li onclick="loadPage('staking')">Staking</li>
-        <li onclick="loadPage('blocks')">Blocks</li>
-        <li onclick="loadPage('transactions')">Transactions</li>
-        <li onclick="loadPage('uptime')">Uptime</li>
+        <li onclick="navigate('dashboard')">Dashboard</li>
+        <li onclick="navigate('governance')">Governance</li>
+        <li onclick="navigate('staking')">Staking</li>
+        <li onclick="navigate('blocks')">Blocks</li>
+        <li onclick="navigate('transactions')">Transactions</li>
+        <li onclick="navigate('uptime')">Uptime</li>
+        <li onclick="navigate('ibc')">IBC</li>
+        <li onclick="navigate('consensus')">Consensus</li>
+        <li onclick="navigate('parameters')">Parameters</li>
       </ul>
     </nav>
   </aside>
-  <main id="content">Click menu to load data...</main>
+  <main id="content">
+    <h2>Welcome!</h2>
+    <p>Select a menu item to load data...</p>
+  </main>
   <script src="script.js"></script>
 </body>
 </html>

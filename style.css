@@ -1,9 +1,10 @@
-body { display: flex; font-family: Arial; margin:0; }
-aside { width:200px; background:#222; color:#fff; padding:1rem; height:100vh; box-sizing:border-box; }
-aside h2 { margin-top:0; }
+body { display:flex; margin:0; font-family:Arial,sans-serif; }
+aside { width:180px; background:#2c3e50; color:#ecf0f1; padding:1rem; height:100vh; box-sizing:border-box; }
+aside h2 { margin-top:0; font-size:18px; }
 aside ul { list-style:none; padding:0; }
 aside li { margin:0.5rem 0; cursor:pointer; }
 aside li:hover { text-decoration:underline; }
-main { flex:1; padding:2rem; overflow:auto; }
-table { width:100%; border-collapse:collapse; margin-top:1rem; }
-th,td { padding:0.5rem; border:1px solid #ccc; text-align:left; }
+main { flex:1; padding:2rem; overflow:auto; background:#ecf0f1; min-height:100vh; }
+table { width:100%; border-collapse:collapse; margin:1rem 0; }
+th,td { padding:0.5rem; border:1px solid #bdc3c7; }
+canvas { max-width:600px; margin-top:1rem; }
