@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>KiChain Testnet Explorer</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Kii-Testnet-Oro Explorer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>🚀 KiChain Testnet - Uptime Monitor</h1>
-  <p>🧱 Block Height: <span id="block-height">Loading...</span></p>
-  <p>🕒 Latest Block Time: <span id="block-time">Loading...</span></p>
+  <aside>
+    <h2>Kii‑Testnet‑Oro</h2>
+    <nav>
+      <ul>
+        <li onclick="loadPage('dashboard')">Dashboard</li>
+        <li onclick="loadPage('governance')">Governance</li>
+        <li onclick="loadPage('staking')">Staking</li>
+        <li onclick="loadPage('blocks')">Blocks</li>
+        <li onclick="loadPage('transactions')">Transactions</li>
+        <li onclick="loadPage('uptime')">Uptime</li>
+      </ul>
+    </nav>
+  </aside>
+  <main id="content">Click menu to load data...</main>
   <script src="script.js"></script>
 </body>
 </html>
